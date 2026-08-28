@@ -26,7 +26,6 @@ return new class extends Migration
             $table->timestamps();
 
             $table->index(['user_id', 'expires_at']);
-            $table->timestamps();
         });
     }
 
